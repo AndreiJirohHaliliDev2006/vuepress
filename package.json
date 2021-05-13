@@ -45,7 +45,7 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
+    "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^8.2.0",
     "@types/escape-html": "^0.0.20",
     "@types/fs-extra": "^5.0.4",
