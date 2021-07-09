@@ -1,3 +1,43 @@
+## [1.8.2](https://github.com/vuejs/vuepress/compare/v1.8.1...v1.8.2) (2021-02-18)
+
+
+### Bug Fixes
+
+* **$default-theme:** sidebar groups are not opened when directly navigating to these pages (fix [#2564](https://github.com/vuejs/vuepress/issues/2564)) ([#2565](https://github.com/vuejs/vuepress/issues/2565)) ([3ab9fca](https://github.com/vuejs/vuepress/commit/3ab9fca))
+* **$markdown:** support path without file extension when importing code snippets ([#2677](https://github.com/vuejs/vuepress/issues/2677)) ([bb4ae4e](https://github.com/vuejs/vuepress/commit/bb4ae4e))
+
+
+
+## [1.8.1](https://github.com/vuejs/vuepress/compare/v1.8.0...v1.8.1) (2021-02-11)
+
+
+### Bug Fixes
+
+* **$core:** component CodeGroup loads correctly on clientfix [#2711](https://github.com/vuejs/vuepress/issues/2711) ([#2794](https://github.com/vuejs/vuepress/issues/2794)) ([51277f8](https://github.com/vuejs/vuepress/commit/51277f8))
+* **$theme-default:** override algoliaOptions correctly ([ba89f39](https://github.com/vuejs/vuepress/commit/ba89f39))
+* **deps:** [security] bump ini from 1.3.5 to 1.3.8 ([aeb8dce](https://github.com/vuejs/vuepress/commit/aeb8dce))
+* **deps:** bump autoprefixer from 9.6.1 to 9.8.6 ([775b3de](https://github.com/vuejs/vuepress/commit/775b3de))
+* **deps:** bump vue from 2.6.10 to 2.6.12 ([830dd4c](https://github.com/vuejs/vuepress/commit/830dd4c))
+
+
+
+# [1.8.0](https://github.com/vuejs/vuepress/compare/v1.7.1...v1.8.0) (2021-01-05)
+
+
+### Bug Fixes
+
+* **$plugin-google-analytics:** report site base ([#2687](https://github.com/vuejs/vuepress/issues/2687)) (close [#2169](https://github.com/vuejs/vuepress/issues/2169)) ([6bbcc69](https://github.com/vuejs/vuepress/commit/6bbcc69))
+* **$shared-utils:** improve title inference and header extraction for markdown links syntax ([d264e50](https://github.com/vuejs/vuepress/commit/d264e50))
+* **$theme-default:** display header-anchor links when using keyboard navigation ([#2699](https://github.com/vuejs/vuepress/issues/2699)) ([81cce39](https://github.com/vuejs/vuepress/commit/81cce39))
+* Only empty the `.temp` directory at most once per run (fix [#2254](https://github.com/vuejs/vuepress/issues/2254)) ([#2612](https://github.com/vuejs/vuepress/issues/2612)) ([970b434](https://github.com/vuejs/vuepress/commit/970b434))
+
+
+### Features
+
+* **$markdown:** make page suffix configurable (close [#2452](https://github.com/vuejs/vuepress/issues/2452)) ([#2674](https://github.com/vuejs/vuepress/issues/2674)) ([db16389](https://github.com/vuejs/vuepress/commit/db16389))
+
+
+
 ## [1.7.1](https://github.com/vuejs/vuepress/compare/v1.7.0...v1.7.1) (2020-10-15)
 
 
