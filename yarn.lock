@@ -8736,10 +8736,10 @@ markdown-extensions@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/markdown-extensions/-/markdown-extensions-1.1.1.tgz#fea03b539faeaee9b4ef02a3769b455b189f7fc3"
 
-markdown-it-anchor@^5.0.2:
-  version "5.2.4"
-  resolved "https://registry.yarnpkg.com/markdown-it-anchor/-/markdown-it-anchor-5.2.4.tgz#d39306fe4c199705b4479d3036842cf34dcba24f"
-  integrity sha512-n8zCGjxA3T+Mx1pG8HEgbJbkB8JFUuRkeTZQuIM8iPY6oQ8sWOPRZJDFC9a/pNg2QkHEjjGkhBEl/RSyzaDZ3A==
+markdown-it-anchor@^8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-anchor/-/markdown-it-anchor-8.1.1.tgz#c7bbba701c16a556aedd1d45000b23b8d8cab154"
+  integrity sha512-ZQ8t5s8nWdyFPQc649cVSBMmtCjHLcilbTQneQVEP1smT9ML+YHvAHBhgZagsIDcm1yai8ogF7rMvPGWqc5scg==
 
 markdown-it-chain@^1.3.0:
   version "1.3.0"
