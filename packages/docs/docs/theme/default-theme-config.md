@@ -35,6 +35,20 @@ Any extra content after the `YAML front matter` will be parsed as normal Markdow
 
 To use a fully custom homepage layout, you can also use a [Custom Layout](#custom-layout-for-specific-pages).
 
+## Rich-text footer
+
+Note that you can also set `footer` with [Markdown Slot Syntax](../guide/markdown-slot.md) to support rich text:
+
+```md
+---
+home: true
+---
+
+::: slot footer
+MIT Licensed | Copyright © 2018-present [Evan You](https://github.com/yyx990803)
+:::
+```
+
 ## Navbar
 
 The Navbar may contain your page title, [Search Box](#search-box), [Navbar Links](#navbar-links), [Languages](../guide/i18n.md) and [Repository Link](#git-repo-and-edit-links), they all depend on your configuration.
@@ -385,7 +399,7 @@ If you need full text search, you can use [Algolia Search](#algolia-search).
 
 ### Algolia Search
 
-The `themeConfig.algolia` option allows you to use [Algolia DocSearch](https://community.algolia.com/docsearch/) to replace the simple built-in search. To enable it, you need to provide at least `apiKey` and `indexName`:
+The `themeConfig.algolia` option allows you to use [Algolia DocSearch](https://docsearch.algolia.com/) to replace the simple built-in search. To enable it, you need to provide at least `apiKey` and `indexName`:
 
 ``` js
 // .vuepress/config.js
@@ -393,14 +407,16 @@ module.exports = {
   themeConfig: {
     algolia: {
       apiKey: '<API_KEY>',
-      indexName: '<INDEX_NAME>'
+      indexName: '<INDEX_NAME>',
+      // If Algolia did not provided you any `appId`, use `BH4D9OD16A` or remove this option
+      appId: '<APP_ID>'
     }
   }
 }
 ```
 
 ::: warning Note
-Unlike the [built-in search](#built-in-search) engine which works out of the box, [Algolia DocSearch](https://community.algolia.com/docsearch/) requires you to submit your site to them for indexing before it starts working.
+Unlike the [built-in search](#built-in-search) engine which works out of the box, [Algolia DocSearch](https://docsearch.algolia.com/) requires you to submit your site to them for indexing before it starts working.
 :::
 
 For more options, check out [Algolia DocSearch’s documentation](https://github.com/algolia/docsearch#docsearch-options).
@@ -532,7 +548,7 @@ pageClass: custom-page-class
 ---
 ```
 
-Then you can write CSS targeting that page only in `./vuepress/styles/index.styl`.
+Then you can write CSS targeting that page only in `.vuepress/styles/index.styl`.
 
 ``` css
 

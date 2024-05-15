@@ -31,6 +31,20 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 任何 `YAML front matter` 之后额外的内容将会以普通的 markdown 被渲染，并插入到 `features` 的后面。
 
+## 富文本 footer
+
+你还可以使用 [Markdown Slot Syntax](../guide/markdown-slot.md) 来设置 `footer`，以支持富文本：
+
+```md
+---
+home: true
+---
+
+::: slot footer
+MIT Licensed | Copyright © 2018-present [Evan You](https://github.com/yyx990803)
+:::
+```
+
 ## 导航栏
 
 导航栏可能包含你的页面标题、[搜索框](#搜索框)、 [导航栏链接](#导航栏链接)、[多语言切换](../guide/i18n.md)、[仓库链接](#git-仓库和编辑链接)，它们均取决于你的配置。
@@ -385,7 +399,9 @@ module.exports = {
   themeConfig: {
     algolia: {
       apiKey: '<API_KEY>',
-      indexName: '<INDEX_NAME>'
+      indexName: '<INDEX_NAME>',
+      // 如果 Algolia 没有为你提供 `appId` ，使用 `BH4D9OD16A` 或者移除该配置项
+      appId: '<APP_ID>'
     }
   }
 }
@@ -449,7 +465,7 @@ next: false
 
 ## Git 仓库和编辑链接
 
-当你提供了 `themeConfig.repo` 选项，将会自动在每个页面的导航栏生成生成一个 GitHub 链接，以及在页面的底部生成一个 `"Edit this page"` 链接。
+当你提供了 `themeConfig.repo` 选项，将会自动在每个页面的导航栏生成一个 GitHub 链接，以及在页面的底部生成一个 `"Edit this page"` 链接。
 
 ``` js
 // .vuepress/config.js
@@ -508,15 +524,19 @@ pageClass: custom-page-class
 ---
 ```
 
-然后你就可以写专门针对该页面的 CSS 了：
+只能在 `.vuepress/styles/index.styl` 中编写针对该页面的 CSS ：
 
 ``` css
-/* .vuepress/override.styl */
+/* .vuepress/styles/index.styl */
 
 .theme-container.custom-page-class {
   /* 特定页面的 CSS */
 }
 ```
+
+::: tip 注意
+自定义样式应该写在 [index.styl](/config/#index-styl) 内, 该文件可以让你方便地添加或覆盖样式.
+:::
 
 ## 特定页面的自定义布局
 

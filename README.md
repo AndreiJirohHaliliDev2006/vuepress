@@ -5,28 +5,19 @@
 </p>
 
 <p align="center">
- <img src="https://img.shields.io/npm/dm/vuepress.svg" alt="Downloads"></a>
+  <a href="#"><img src="https://img.shields.io/npm/dm/vuepress.svg" alt="Downloads"></a>
   <a href="https://www.npmjs.com/package/vuepress"><img src="https://img.shields.io/npm/v/vuepress.svg" alt="Version"></a>
   <a href="https://github.com/vuejs/vuepress/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/vuepress.svg" alt="License"></a>
   <a href="https://discordapp.com/invite/HBherRA"><img src="https://img.shields.io/badge/Discord-join%20chat-738bd7.svg" alt="VuePress channel on Discord"></a>
 </p>
 
-## Install
+## Status
 
-### Package
+VuePress v1 is now in maintenance mode.
 
-```bash
-yarn add vuepress -D
-```
-
-### Generator
-
-```bash
-# Creates a scaffolded docs site
-yarn create vuepress-site
-```
-
-For more information, see [create-vuepress-site](https://github.com/vuepressjs/create-vuepress-site).
+For a next-gen Vue-based SSG:
+- [VitePress](https://vitepress.vuejs.org/): Vue.js official team supported. Built on top of Vue 3 + Vite.
+- [VuePress v2+](https://github.com/vuepress/core): Community supported. Built on top of Vue 3 + Vite / Webpack / Other bundlers.
 
 ## Documentation
 
@@ -59,7 +50,7 @@ If you have a VuePress-related project/component/tool, add it with a pull reques
 
 <table>
   <td align="center"><a href="http://evanyou.me"><img src="https://avatars1.githubusercontent.com/u/499550?v=4" width="100px;" alt="Evan You"/><br /><sub><b>Evan You</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=yyx990803" title="Code">💻</a></td>
-  <td align="center"><a href="http://ulivz.com"><img src="https://avatars1.githubusercontent.com/u/23133919?v=4" width="100px;" alt="ULIVZ"/><br /><sub><b>ULIVZ</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=ulivz" title="Code">💻</a> <a href="https://github.com/vuejs/vuepress/commits?author=ulivz" title="Documentation">📖</a></td>
+  <td align="center"><a href="https://github.com/ulivz"><img src="https://avatars1.githubusercontent.com/u/23133919?v=4" width="100px;" alt="ULIVZ"/><br /><sub><b>ULIVZ</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=ulivz" title="Code">💻</a> <a href="https://github.com/vuejs/vuepress/commits?author=ulivz" title="Documentation">📖</a></td>
 </table>
 
 ### Active Core Team
@@ -70,7 +61,6 @@ If you have a VuePress-related project/component/tool, add it with a pull reques
 <table>
   <tr>
     <td align="center"><a href="https://billychin.netlify.com/"><img src="https://avatars0.githubusercontent.com/u/38957202?v=4" width="100px;" alt="Billyyyyy3320"/><br /><sub><b>Billyyyyy3320</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=newsbielt703" title="Code">💻</a></td>
-    <td align="center"><a href="http://www.bencodezen.io"><img src="https://avatars0.githubusercontent.com/u/4836334?v=4" width="100px;" alt="Ben Hong"/><br /><sub><b>Ben Hong</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=bencodezen" title="Code">💻</a> <a href="https://github.com/vuejs/vuepress/commits?author=bencodezen" title="Documentation">📖</a> <a href="#question-bencodezen" title="Answering Questions">💬</a></td>
     <td align="center"><a href="https://github.com/meteorlxy"><img src="https://avatars0.githubusercontent.com/u/18205362?s=400&v=4" width="100px;" alt="meteorlxy"/><br /><sub><b>meteorlxy</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=meteorlxy" title="Code">💻</a></td>
     <td align="center"><a href="https://twitter.com/CodesOfRa"><img src="https://avatars0.githubusercontent.com/u/945186?v=4" width="100px;" alt="Ramona"/><br /><sub><b>Ramona</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=CodesOfRa" title="Code">💻</a> <a href="https://github.com/vuejs/vuepress/commits?author=CodesOfRa" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.franck-abgrall.me/"><img src="https://avatars3.githubusercontent.com/u/9840435?v=4" width="100px;" alt="Franck Abgrall"/><br /><sub><b>Franck Abgrall</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=kefranabg" title="Code">💻</a> <a href="#question-kefranabg" title="Answering Questions">💬</a></td>
@@ -88,6 +78,7 @@ Here we honor some no-longer-active core team members who have made valuable con
 
 <table>
   <tr>
+    <td align="center"><a href="http://www.bencodezen.io"><img src="https://avatars0.githubusercontent.com/u/4836334?v=4" width="100px;" alt="Ben Hong"/><br /><sub><b>Ben Hong</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=bencodezen" title="Code">💻</a> <a href="https://github.com/vuejs/vuepress/commits?author=bencodezen" title="Documentation">📖</a> <a href="#question-bencodezen" title="Answering Questions">💬</a></td>
     <td align="center"><a href="https://github.com/f3ltron"><img src="https://avatars1.githubusercontent.com/u/11556276?v=4" width="100px;" alt="Giraud Florent"/><br /><sub><b>Giraud Florent</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=f3ltron" title="Code">💻</a></td>
     <td align="center"><a href="https://frontstuff.io/"><img src="https://avatars0.githubusercontent.com/u/5370675?v=4" width="100px;" alt="Sarah Dayan"/><br /><sub><b>Sarah Dayan</b></sub></a><br /><a href="https://github.com/vuejs/vuepress/commits?author=sarahdayan" title="Code">💻</a> <a href="https://github.com/vuejs/vuepress/commits?author=sarahdayan" title="Documentation">📖</a></td>
     <td align="center"><a href="https://twitter.com/_vinayak_k"><img src="https://avatars2.githubusercontent.com/u/19776877?v=4" width="100px;" alt="Vinayak Kulkarni"/><br /><sub><b>Vinayak Kulkarni</b></sub></a><br /><a href="#plugin-vinayakkulkarni" title="Plugin/utility libraries">🔌</a> <a href="https://github.com/vuejs/vuepress/commits?author=vinayakkulkarni" title="Code">💻</a> <a href="#blog-vinayakkulkarni" title="Blogposts">📝</a></td>
